@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <div id="home" class="debut">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#home">Home</a>
+                        <li>
+                            <a class="nav-link" href="#about-me">About me</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#my-projects">My Projects</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--END NAVBAR-->
+    <!--MAIN-->
+    <main id="main-container">
+
+        <!--HEADER-->
+        <header>
+            <h1>Serial Coders Association.</h1>
+            <div id="presentation">
+                <p><span class="bold">Hello!</span> Have a seat and stay with me for a while!</p>
+            </div>
+        </header>
+        <!--HEADER-->
+        <!--BIO-->
+        <div id="about-me" class="debut">
+            <h2>ABOUT ME</h2>
+            <div id="photo-bio">
+                <figure id="me">
+                    <img id="moi" src="image/surfer.jpg" alt="Thomas.H photo">
+                    <figcaption id="perso">Thomas.H</figcaption>
+                </figure>
+                <div id="introduction">
+                    <p class="start">Hi! I'm Thomas.H, Developer in progress. I come from Marseille, a famous town in the south of France, sure you heard about it! If it's not the case, i will be very happy to to let you profit of our very-good “savoir-faire”.
+                        <p class="start">But better than words, just have a look at some of my projects, maybe that some of them will give you ideas for your future website that i'll make for you.</p>
+                        <p class="start">Sure we will meet soon.</p>
+                </div>
+            </div>
+            <!--End BIO----------------------------------------------------------------------------------------------------->
+            <!--PHOTOS------------------------------------------------------------------------------------------------------>
+        </div>
+        <div id="my-projects" class="debut">
+            <h2>MY PROJECTS</h2>
+            <div class="gallery">
+
+                <div class="item-1">
+                    <figure class="folio">
+                        <img class="picture" src="image/forest.jpg" alt="forest">
+                        <figcaption><span class="shadow">Deep Forest</span></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item-2">
+
+                    <figure class="folio">
+                        <img class="picture" src="image/sea.jpg " alt="sea">
+                        <figcaption><span class="shadow">Big Blue</span></figcaption>
+                    </figure>
+                </div>
+                <div class="item-3">
+                    <figure class="folio">
+                        <img class="picture" src="image/rock.jpg " alt="rock">
+                        <figcaption><span class="shadow">Red Rocks</span></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item-4">
+                    <figure class="folio">
+                        <img class="picture" src="image/storm.jpg " alt="storm">
+                        <figcaption><span class="shadow">Mighty Nature</span></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item-5">
+                    <figure class="folio">
+                        <img class="picture" src="image/snow.jpg " alt="snow">
+                        <figcaption><span class="shadow">White Eden</span></figcaption>
+                    </figure>
+                </div>
+
+                <div class="item-6">
+                    <figure class="folio">
+                        <img class="picture" src="image/desert.jpg " alt="desert">
+                        <figcaption><span class="shadow">Dry But Alive</span></figcaption>
+                    </figure>
+                </div>
+
+            </div>
+            <div id="join">
+                <p class="form">If you want to see more just<a href="#form" class="link"> SIGN IN </a></p>
+            </div>
+
+
+
+        </div>
+        <!--END PHOTOS-->
+        <!--ADRESS-->
+        <div id="contact" class="debut">
+            <h2>CONTACT</h2>
+            <div>
+                <figure class="adress">
+                    <figcaption class="adress">Adress: 54 Boulevard Laveran 13013 Marseille FRANCE</figcaption>
+                    <a class="adress " href="https://www.google.com/maps/place/53+Bd+Lav%C3%A9ran,+13013+Marseille/@43.3261396,5.4110455,17z/data=!3m1!4b1!4m5!3m4!1s0x12c9bf9818ecae4b:0xc457efb7514aff41!8m2!3d43.3261357!4d5.4132342 "><img id="plan" class="adress" src="images/afpa.png " alt="plan afpa"></a>
+                </figure>
+            </div>
+            <div id="social">
+                <a href="https://fr-fr.facebook.com/" class="fa fa-facebook fa-3x icon"></a>
+                <a href="https://fr.linkedin.com/" class="fa fa-linkedin fa-3x icon"></a>
+                <a href="https://github.com/" class="fa fa-github fa-3x icon"></a>
+                <a href="https://www.pinterest.fr/" class="fa fa-pinterest fa-3x icon"></a>
+            </div>
+
+
+        </div>
+        <div class="debut">
+            <section id="information" >
+                <h1>SIGN IN</h1>
+                <p id="instructions">(Fill the blanks)</p>
+            </section>
+            <form id="form" method="post" action="*">
+                <fieldset>
+                    <label for="gender-m"><input id="gender-m" type="radio" name="gender" class="inline" /> Mr</label>
+                    <label for="gender-f"><input id="gender-f" type="radio" name="gender" class="inline" /> Mrs</label>
+                    <label for="no-gender"><input id="no-gender" type="radio" name="gender" class="inline" /> Other</label>
+
+                    <label for="first-name"><input id="first-name" class="info"  name="first-name" type="text" placeholder= "First name" required/></label>
+                    <label for="last-name"><input id="last-name" class="info"   name="last-name" type="text"  placeholder= "Last name" required/></label>
+                    <label for="age"><input id="age" name="age" class="info"  type="number" min="13" max="120" placeholder="Age"/></label>
+                    <label for="email"><input id="email"  name="email" class="info"  type="text" placeholder= "Email" required/></label>
+                    <label for="password"><input id="password"  name="password" class="info"  type="password" pattern="[a-z0-5]{8,}" placeholder="Password" required/>
+                    </label>
+                </fieldset>
+                <fieldset id="comment">
+                    <textarea name="ideas" cols="30" rows="10" placeholder="More informations"></textarea>
+                </fieldset>
+                <fieldset id="terms">
+                   <input type="checkbox" required name="terms" class="inline"/><a id="accept" href="*">I accept the <span class="terms"> terms and conditions.</span></a>
+                </fieldset>
+                <input id="submit" type="submit" value="Submit" class="gradient border-gradient" />
+
+            </form>
+
+
+        </div>
+        <footer>
+            <p>&copy; 2023 Thomas HUMBERT</p>
+
+
+        </footer>
+
+    </main>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
